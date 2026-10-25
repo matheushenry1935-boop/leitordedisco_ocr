@@ -398,7 +398,7 @@ class App(tk.Tk):
     def _montar_ui(self):
         topo = tk.Frame(self, bg="#0f1017")
         topo.pack(fill="x")
-        tk.Label(topo, text="JUSTIÇA FEDERAL", bg="#0f1017", fg=TXT, font=(FONTE, 10, "bold")).pack(side="left", padx=14, pady=10)
+        tk.Label(topo, text="", bg="#0f1017", fg=TXT, font=(FONTE, 10, "bold")).pack(side="left", padx=14, pady=10)
         tk.Label(topo, text="OCR MÍDIAS JUDICIAIS V6", bg="#0f1017", fg="white", font=("Georgia", 15, "bold")).pack(side="left", padx=30)
         self._botao(topo, "⚙ Configurar IA", self.abrir_config, "#374151").pack(side="right", padx=12, ipadx=6)
         tk.Label(topo, textvariable=self.info_ia, bg="#0f1017", fg=SUB, font=(FONTE, 9)).pack(side="right")
