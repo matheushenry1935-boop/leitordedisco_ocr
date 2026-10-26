@@ -1,6 +1,6 @@
 # leitordedisco_ocr
 API e scripts em Python para consulta ao DataJud (CNJ) e classificação automática de processos em Cível ou Criminal. Utiliza mapeamento por código numérico da Tabela Processual Unificada (TPU/SGT), eliminando erros de texto, web scraping e CAPTCHAs. Integrável via REST e Webhooks.
-# ⚖️ Classificador de Processos Jurídicos (DataJud + TPU/CNJ)
+# ⚖️ Classificador de Processos Jurídicos (DataJud + TPU/CNJ) (ainda nao implementado)
 
 Microsserviço em Python para consulta e classificação de processos judiciais brasileiros em **Cível** ou **Criminal** com 100% de precisão.
 
